@@ -1,1 +1,22 @@
 /* Tailwind directives */
+/* index.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: custom styles */
+body {
+  @apply bg-gray-100 text-gray-800 font-sans;
+}
+
+button {
+  @apply transition duration-300 ease-in-out;
+}
+
+input, select, textarea {
+  @apply border border-gray-300 p-2 rounded w-full;
+}
+
+input:focus, select:focus, textarea:focus {
+  @apply outline-none ring-2 ring-blue-500
