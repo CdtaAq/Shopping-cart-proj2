@@ -1,0 +1,1 @@
+// Product model (Java-style path, JS content)
