@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Checkout Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="p-6 bg-white">
+  <h1 class="text-2xl font-bold mb-4">Checkout Page</h1>
+  <p class="mb-4">We will deliver products to the following address:</p>
+  <p class="mb-6">John Doe, 123 Main Street, New York, NY</p>
+  <table class="table-auto w-full mb-6 border">
+    <thead>
+      <tr class="bg-gray-200">
+        <th class="px-4 py-2">Product</th>
+        <th class="px-4 py-2">Qty</th>
+        <th class="px-4 py-2">Price</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="border px-4 py-2">Product 1</td>
+        <td class="border px-4 py-2">2</td>
+        <td class="border px-4 py-2">$20</td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="font-semibold mb-4">Total Quantity: 2</p>
+  <p class="font-semibold mb-6">Total Amount: $20</p>
+  <button class="bg-green-600 text-white px-4 py-2 rounded">Make Payment</button>
+  <div class="mt-8 bg-yellow-100 p-4 border-l-4 border-yellow-500 hidden">
+    <h2 class="text-xl font-bold">Payment Page</h2>
+    <p class="mt-2">Thank you for the payment, your items are under process!</p>
+  </div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cart Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="p-6 bg-gray-100">
+  <h1 class="text-2xl font-bold mb-4">Your Cart</h1>
+  <div class="space-y-4">
+    <div class="flex items-center justify-between bg-white p-4 rounded shadow">
+      <div>
+        <h2 class="font-semibold">Product 1</h2>
+        <p>$10 x 2</p>
+      </div>
+      <div class="flex items-center gap-2">
+        <button class="bg-gray-300 px-2 rounded">-</button>
+        <span>2</span>
+        <button class="bg-gray-300 px-2 rounded">+</button>
+        <button class="ml-4 text-red-600">Remove</button>
+      </div>
+    </div>
+  </div>
+  <div class="mt-6">
+    <p class="font-semibold">Total Quantity: 2</p>
+    <p class="font-semibold">Total Amount: $20</p>
+    <button class="mt-4 bg-blue-600 text-white px-4 py-2 rounded">Go To Checkout</button>
+  </div>
+</body>
+</html>
