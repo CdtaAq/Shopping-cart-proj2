@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input, button {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+  max-width: 400px;
+}
+
+button {
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+#cart-items, #product-list, #checkout-items {
+  background: white;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ddd;
+}
